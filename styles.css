@@ -1,0 +1,30 @@
+.blur-bl, .blur-tm, .blur-tr-container {
+    mix-blend-mode: multiply;
+    pointer-events: none;
+  }
+  
+  /* Disable click events */
+  .pointer-none {
+  pointer-events: none;
+  }
+  
+  /* Vertical text in sidebar */
+  .accordion-vertical-label {
+  writing-mode: vertical-rl;
+  }
+  
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .accordion::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .accordion {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+  
+  /* Hide bottom border on last accordion */
+  .accordion:last-child{
+  border: 0px solid transparent !important;
+  }
